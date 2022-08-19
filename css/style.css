@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    margin-right:35px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight:bold ;
+    color:#e68a00;
+
+}
+.nav-link:hover{
+    color:white;
+    font-weight: bolder;
+    background-image: linear-gradient(white,#e68a00,#b30059);
+    border-radius: 50px;
+    padding:0.25rem;
+    
+}
+.search{
+    border-radius: 20px;
+    height: 34px;
+    width: 90%;
+    outline: none;
+    border:2px solid #e68a00;
+}
+
+.main{
+    background: url(../images/burger.png) no-repeat center ;
+    background-size: cover;
+    background-position: 60% 60%;
+    margin:0;
+    padding-right: 0;
+    height:95vh; 
+}
+span{
+    color:#e68a00;
+}
+
+.main h1{
+    color:white;
+    font-size: 3.6rem;
+    font-weight:800;
+    padding-top:10rem;
+    
+    margin-bottom:4rem;
+
+}
+.btn{
+    
+    margin:5px;
+    color:#b30059;
+    font-weight: 900;
+    border-radius: 40px;
+    height:8%;
+    width:30%;
+    border:none;
+    outline:none;
+    background:linear-gradient(white,#ffcc80,#e68a00);
+}
+.btn:hover{
+    font-weight: bolder;
+    background-image: linear-gradient(white,#e68a00,#b30059);
+    border-radius: 50px;
+}
+
+.About-Writing{
+    
+    text-align:justify;
+}
+.About-Writing h3{
+    font-size: 4vh;
+    color:#b30059;
+    text-align: center;
+}
+.About-Writing p{
+    font-size: 2.6vh;
+    padding-top:16px;
+}
+.special{
+    background:url(../images/specials_bg.jpg);
+    
+}
+.special h1,h6{
+    color:#e68a00;
+    font-weight: 900;
+}
+.card:hover{
+    -webkit-box-shadow: -1px 2px 6px 6px #b30059;
+-moz-box-shadow: -1px 2px 6px 6px #b30059;
+box-shadow: -1px 2px 6px 6px #b30059;
+transition:0.5s;
+}
+.Contact h5{
+    color:#b30059;
+}
