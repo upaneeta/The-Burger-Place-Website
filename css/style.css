@@ -97,3 +97,10 @@ transition:0.5s;
 .Contact h5{
     color:#b30059;
 }
+
+@media screen and (max-width: 912px) {
+    .logo{
+        margin-right: 100%;
+        position: absolute;
+    }
+}
